@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <!--Font Awesome Icons-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <title>Potfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <a href="#"><img src="logo.png" alt="" /></a>
+  <a href="#"><img src="" alt="" /></a>
+  <h1>Potfolio</h1>
+  <button class="hamburger" id="hamburger">
+    <i class="fas fa-bars">
+    </i>
+  </button>
+  <nav>
+    <ul class="nav-links" id="nav-Ul">
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#">Posts</a></li>
+
+    </ul>
+  </nav>
+</header>
+  <!-- MAIN SECTION -->
+  <section id="main-section">
+    <div class="avtar">
+      <img width="1000px" src="Abhishek.jpg" alt="AVATAR" />
+      <h2>Abhishek Sanjeev</h2>
+    </div>
+    <div class="About" id="about">
+      <p class="para">Hi, I'm Abhishek Sanjeev, a passionate Front End web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly.</p>
+      <p class="para">Through this potfolio i like to express my skills and pationate towards coding</p>
+      <div class="social">
+        <a class="btn" href="#">Resume</a>
+        <a class="btn" href=""><i class="fab fa-instagram"></i> </a>
+        <a class="btn" href=""><i class="fab fa-facebook-square"></i> </a>
+        <a class="btn" href=""><i class="fab fa-twitter-square"></i> </a>
+        <a class="btn" href=""><i class="fab fa-github"></i> </a>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!--SKILLS SECTION -->
+  <section id="skills">
+    <h1>Things I DO</h1>
+    
+    <div class="skills-container">
+
+        
+      
+      <div class="python">
+        <i class="fab fa-python icon"></i>
+        <h2>Python</h2>
+        <p>I build something beautiful using Python</p>
+      </div>
+      
+      <div class="robot">
+        <i class="fas fa-robot icon"></i>
+        <h2>Machine Learning</h2>
+        <p>I train robust models for various task</p>
+      </div>
+      
+      <div class="html">
+        <i class="fab fa-html5 icon"></i>
+        <h2>HTML 5</h2>
+        <p>I love to build things for web</p>
+      </div>
+      
+      <div class="magnifying-glass">
+        <img height="80px" width="80px" src="forensics.png" alt="">
+        <h2>Digital Forensic</h2>
+        <p>I like to do case study's</p>
+      </div>
+
+    </div>
+  </section>
+  
+  
+ <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/@23.0753186,76.8595683,21z?entry=ttu"
+              width="800" height="500" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--FOOTER-->
+  <footer id="footer-container">
+    <img src="Images/logo.png" alt="" />
+    <p>&copy; 2023 All Rights Reserved by Abhishek Sanjeev</p>
+    
+  </footer>
+  <script src="Index.js"></script> 
+</body>
+
+</html>
